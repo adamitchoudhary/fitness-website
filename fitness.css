@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    
+}
+
+/* Navigation */
+nav{
+    overflow:hidden;
+    text-align: center;
+	
+}
+.logo-img{
+	float: left;
+	width: 90px;
+	margin-left: 30px;
+    padding: 10px;
+}
+#btn{
+    float: right;
+text-align: center;
+   margin-left: 400px;
+   margin-top: 10px;
+   height: 25px;
+   background-color: rgb(255, 5, 5);
+   border: rgb(255, 12, 4);
+   color: white;
+}
+
+
+
+nav ul{
+	display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+	padding: 5px;
+	margin-right:10px;
+}
+
+nav > ul > li > a{
+	font-size: 22px;
+    color: #000000;
+	padding: 30px;
+    line-height: 2em;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    border: 2px solid rgb(0, 0, 0);
+	border-top-left-radius:50% ;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+	padding: 13px;
+    border-style:dashed;
+
+}
+.main{
+    display:flex;
+
+
+}
+.main1{
+   
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: center;
+
+}
+.main1 h1{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+.main1 p{
+    font-size: 20px;
+}
+span{
+    color: red;
+}
+.pick{
+   
+    margin-right: 110px;
+    margin-top: 50px;
+    background-color: rgba(255, 0, 0, 0.394);
+    border-top-left-radius: 50%;
+   border-bottom-left-radius: 50%;
+   border-bottom-right-radius: 50%;
+    
+}
+.pick:hover{
+    background-color: #44bae8;
+   border-top-right-radius: 50%;
+   border-top-left-radius: 50%;
+   border-bottom-right-radius: 0%;
+    
+    transition: 2s;
+}
+#btn2{
+    background-color: red;
+    border: red;
+    padding: 8px;
+    color: white;
+}
+.pickmain{
+   display: flex;
+   margin: 0px 90px 0px 90px;
+}
+
+.picks{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgba(255, 0, 0, 0.127) ;
+    margin: 30px;
+    
+   
+}
+.picks:hover{
+    background-color: #f50000d3;
+    color: white;
+    transform: rotate(360deg);
+   
+    transition-duration: 2s;
+}
+.hading{
+    font-size: 26px;
+    color: red;
+    
+   
+    
+}
+.img3{
+    margin-top: 20px;
+}
+.img33{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 20px;
+   
+    
+}
+.img33:hover{
+    transform: rotateY(1500deg);
+    transition:10s ;
+}
+
+.pay{
+   display: flex;
+    align-items: center;
+   margin: 50px;
+   margin-left: 150px;
+   
+}
+.pay3:hover{
+    background-color: rgba(255, 0, 0, 0.428);
+    color: white;
+    transition: 2s;
+   ;
+    
+}
+.pay3{
+    padding: 50px;
+    margin: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+.paymain{
+     padding-top: 10px;
+    margin-top:-24px;
+    color: rgb(0, 0, 0);
+	background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.101), rgba(255, 255, 0, 0.234));
+
+}
+#btn3{
+    background-color: red;
+    border: red;
+    padding: 8px;
+    color: white;
+    
+}
+footer{
+	margin-top: -50px;
+    padding-top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.702), rgba(255, 255, 0, 0.519));
+   color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.711), rgba(30, 30, 0, 0.519));
+    padding: 30px;
+    
+padding-bottom: 50px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom:hover{
+    padding-left: 45%;
+    font-size: 24px;
+    transition: padding 8s 1s;
+}
+
